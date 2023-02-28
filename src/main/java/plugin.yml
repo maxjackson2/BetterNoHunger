@@ -1,0 +1,16 @@
+name: BetterNoHunger
+version: 1.0.0
+main: com.maxjackson.betternohunger.BetterNoHunger
+description: The same plugin as NoHunger plugin but supports multiple versions
+author: Max Jackson
+
+commands:
+  nohunger:
+    description: Allows the player to edit BetterNoHunger plugin config
+    permission: betternohunger.config
+    permission-message: You do not have permission to use this command.
+
+permissions:
+  betternohunger:
+    description: Allows the player to edit BetterNoHunger plugin config
+    default: op

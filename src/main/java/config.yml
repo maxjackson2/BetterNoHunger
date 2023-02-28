@@ -1,0 +1,7 @@
+# ------------------------ Better No Hunger ------------------------
+# Better No hunger allows the player to hunger bar not change
+enabled: true # Allows the plugin to enable no hunger
+worlds: # All the worlds the plugin enabled in
+  - world
+  - world_nether
+  - world_the_end
